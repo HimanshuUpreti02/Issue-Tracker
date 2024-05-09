@@ -22,14 +22,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-      <Provider>
-        <Theme accentColor="violet">
-          <Navbar />
-          <main className="p-5">
-            <Container>{children}</Container>
-          </main>
-        </Theme>
-      </Provider>
+        <Provider>
+          <Theme accentColor="violet">
+            <Navbar />
+            <main className="p-5">
+              <Container>{children}</Container>
+            </main>
+          </Theme>
+        </Provider>
       </body>
     </html>
   );
